@@ -1,0 +1,5 @@
+# Member 1 modules (main environment). FFmpeg/ffprobe are programs, not pip packages.
+opencv-python
+numpy
+# optional
+pytest

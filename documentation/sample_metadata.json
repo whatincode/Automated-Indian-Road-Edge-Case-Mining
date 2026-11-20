@@ -1,0 +1,37 @@
+{
+  "fps": 30.0,
+  "width": 640,
+  "height": 360,
+  "total_frames": 90,
+  "duration_s": 3.0,
+  "has_audio": true,
+  "audio_file": "input/audio.wav",
+  "source_file": "original.mp4",
+  "converted_from_vfr": false,
+  "frames": [
+    {
+      "frame_number": 0,
+      "timestamp": 0.0,
+      "image": "frame_00000.png",
+      "fps": 30.0,
+      "width": 640,
+      "height": 360
+    },
+    {
+      "frame_number": 1,
+      "timestamp": 0.0333,
+      "image": "frame_00001.png",
+      "fps": 30.0,
+      "width": 640,
+      "height": 360
+    },
+    {
+      "frame_number": 2,
+      "timestamp": 0.0667,
+      "image": "frame_00002.png",
+      "fps": 30.0,
+      "width": 640,
+      "height": 360
+    }
+  ]
+}
