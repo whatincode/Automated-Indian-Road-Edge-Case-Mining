@@ -1,0 +1,31 @@
+# Generated job output (frames, delayed frames, exported videos, logs, status)
+data/jobs/
+
+# Large raw dashcam files and GPS logs
+*.TS
+*.NMEA
+CH1-*/
+
+# Videos and audio inside data/ only (small test clips in data/input are kept)
+data/**/*.mp4
+data/**/*.mov
+data/**/*.avi
+data/**/*.mkv
+data/**/*.wav
+!data/input/*.mp4
+
+# Extracted frames
+frame_*.png
+out_*.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
